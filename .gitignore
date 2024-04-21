@@ -1,6 +1,0 @@
-.idea/
-config_data/env.py
-data_storage/other_tables/logs.csv
-data_storage/user_tables/
-.venv/
-__pycache__/
