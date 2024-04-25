@@ -1,0 +1,82 @@
+.navbar li {
+    list-style: none;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-right: px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.search input {
+    font-family: Arial;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: aliceblue;
+    margin-right: 3px;
+    margin-bottom: 15px;
+}
+
+.search button {
+    margin-left:3px ;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.search button:hover {
+    background-color: rgb(221, 238, 252);
+}
+
+.notes-list ul li {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 20px;
+    border-bottom: 2px solid aliceblue;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+.notes-list ul li p{
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.notes-list{
+    margin-top: 15px;
+}
