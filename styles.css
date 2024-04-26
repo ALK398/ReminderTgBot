@@ -74,9 +74,70 @@ header {
     list-style-type: none;
     font-family: Arial;
     font-size: 15px;
-    word-wrap: break-word;
 }
 
 .notes-list{
     margin-top: 15px;
+}
+
+.tasks-list ul li {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 20px;
+    border-bottom: 2px solid aliceblue;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+.tasks-list ul li p {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.tasks-list {
+    margin-top: 15px;
+}
+
+.task-date {
+    float: right;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.crossed {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.rem-list ul li {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 20px;
+    border-bottom: 2px solid aliceblue;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+.rem-list ul li p {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.rem-list {
+    margin-top: 15px;
+}
+
+.rem-date {
+    float: right;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+#mySpan {
+    float: right;
+    font-size: 0.9rem;
+    color: aliceblue;
+    cursor: pointer;
 }

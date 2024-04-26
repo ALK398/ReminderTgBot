@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-color: rgb(48, 49, 61); color: white;">
+<body style="background-color: rgb(41, 41, 46); color: white;">
     <header>
     
         <nav class="navbar">
@@ -21,10 +21,39 @@
     </header>
 
     <div class="search">
-        <input placeholder="Поиск напоминания">
-        <button>Найти</button>
+        <input id="rem-search-input" placeholder="Поиск напоминания">
     </div>
 
+    <div class="rem-list">
+        <ul id="rems-ul">
+            <li>
+                <span class="remText">Новое напоминание</span>
+                <span class="rem-date">17:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="remText">Текст напоминания</p>
+            </li>
+            <li>
+                <span class="remText">Skibidi dop dop dop yes yes</span>
+                <span class="rem-date">15:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="remText">Текст напоминания lorem</p>
+            </li>
+            <li>
+                <span class="remText">Skibidi no</span>
+                <span class="rem-date">21:30</span><br>
+                <span id="mySpan">del</span>
+                <p class="remText">Текст напоминания lorem</p>
+            </li>
+            <li>
+                <span class="remText">Skibidi sike</span>
+                <span class="rem-date">13:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="remText">Текст напоминания lorem</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="scriptForReminders.js"></script>
 </body>
 
 </html>

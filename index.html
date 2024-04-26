@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-color: rgb(48, 49, 61); color: white;">
+<body style="background-color: rgb(41, 41, 46); color: white;">
     <header>
 
         <nav class="navbar">
@@ -21,22 +21,35 @@
     </header>
 
     <div class="search">
-        <input placeholder="Поиск заметки">
-        <button>Найти</button>
+        <input id="notes-search-input" placeholder="Поиск заметки">
     </div>
 
     <div class="notes-list">
-        <ul>
+        <ul id="notes-ul">
             <li>
                 Новая заметка
+                <span id="mySpan">del</span>
                 <p>Текст заметки</p>
             </li>
             <li>
                 Skibidi dop dop dop yes yes
-                <p>Текст заметки</p>
+                <span id="mySpan">del</span>
+                <p>Текст заметки lorem</p>
+            </li>
+            <li>
+                Skibidi no
+                <span id="mySpan">del</span>
+                <p>Текст заметки lorem</p>
+            </li>
+            <li>
+                Skibidi sike
+                <span id="mySpan">del</span>
+                <p>Текст заметки lorem</p>
             </li>
         </ul>
     </div>
+
+    <script src="scriptForNotes.js"></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-color: rgb(48, 49, 61); color: white;">
+<body style="background-color: rgb(41, 41, 46); color: white;">
     <header>
     
         <nav class="navbar">
@@ -21,10 +21,43 @@
     </header>
 
     <div class="search">
-        <input placeholder="Поиск задачи">
-        <button>Найти</button>
+        <input id="tasks-search-input" placeholder="Поиск задачи">
     </div>
 
+    <div class="tasks-list">
+        <ul id="tasks-ul">
+            <li>
+                <input type="checkbox" class="taskCheckbox">
+                <span class="taskText">Новая задача</span>
+                <span class="task-date">17:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="taskText">Текст задачи</p>
+            </li>
+            <li>
+                <input type="checkbox" class="taskCheckbox">
+                <span class="taskText">Skibidi dop dop dop yes yes</span>
+                <span class="task-date">15:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="taskText">Текст заметки lorem</p>
+            </li>
+            <li>
+                <input type="checkbox" class="taskCheckbox">
+                <span class="taskText">Skibidi no</span>
+                <span class="task-date">21:30</span><br>
+                <span id="mySpan">del</span>
+                <p class="taskText">Текст задачи lorem</p>
+            </li>
+            <li>
+                <input type="checkbox" class="taskCheckbox">
+                <span class="taskText">Skibidi sike</span>
+                <span class="task-date">13:00</span><br>
+                <span id="mySpan">del</span>
+                <p class="taskText">Текст задачи lorem</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="scriptForTasks.js"></script>
 </body>
 
 </html>
