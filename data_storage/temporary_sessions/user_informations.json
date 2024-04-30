@@ -1,0 +1,58 @@
+{
+    "username": [
+        {
+            "user_logs": [
+                {
+                    "login": ""
+                },
+                {
+                    "password": ""
+                }
+            ]
+        },
+        {
+            "mission": [
+                {
+                    "mission_type": ""
+                },
+                {
+                    "mission_title": ""
+                },
+                {
+                    "mission_description": ""
+                },
+                {
+                    "mission_date": ""
+                }
+            ]
+        }
+    ],
+    "AoKo398": [
+        {
+            "user_logs": [
+                {
+                    "login": "Alberto"
+                },
+                {
+                    "password": "398"
+                }
+            ]
+        },
+        {
+            "mission": [
+                {
+                    "mission_type": "reminder"
+                },
+                {
+                    "mission_title": "dawd"
+                },
+                {
+                    "mission_description": "favdsfv"
+                },
+                {
+                    "mission_date": "2024-04-30 10:00"
+                }
+            ]
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 LEXICON_BUTTONS: dict[str, str] = {
-    'create_button': 'Просмотреть:',
-    'note_button': 'Заметку',
+    'view_button': 'Просмотреть задачи',
+    'note_button': 'Заметка',
     'reminder_button': 'Напоминание',
-    'task_button': 'Задачу',
     'good_button': 'Хорошо',
-    'ok_button': 'Ок'
-
+    'ok_button': 'Ок',
+    'cancel_button': 'Отменить',
+    'delete_missions': 'Удалить Задачу',
+    'alert': 'Задача'
 }

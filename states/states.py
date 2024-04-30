@@ -8,6 +8,8 @@ class FSMStartLogining(StatesGroup):
     password_state = State()
     done_acc_state = State()
     logged_in_state = State()
+    view_state = State()
+    mission_delete_state = State()
 
     title_note_state = State()
     description_note_state = State()
@@ -17,10 +19,4 @@ class FSMStartLogining(StatesGroup):
     description_reminder_state = State()
     date_reminder_state = State()
     created_reminder_state = State()
-
-    title_task_state = State()
-    description_task_state = State()
-    date_task_state = State()
-    status_task_state = State()
-    created_task_state = State()
 
