@@ -8,7 +8,7 @@ from lexicon.lexicon_buttons import LEXICON_BUTTONS
 from lexicon.lexicon_commands import LEXICON_COMMANDS
 
 web_app_button = InlineKeyboardButton(text=LEXICON_COMMANDS['/web_app'][1],
-                                      web_app=WebAppInfo(url='https://d0cf-138-199-31-203.ngrok-free.app'))
+                                      web_app=WebAppInfo(url='https://alk398.github.io/ReminderTgBot/'))
 
 web_app_kb = InlineKeyboardMarkup(inline_keyboard=[[web_app_button]])
 
