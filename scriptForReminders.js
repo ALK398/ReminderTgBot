@@ -1,3 +1,27 @@
+let login = ''
+
+fetch(`${login}_reminders.csv`)
+    .then(response => response.text())
+    .then(data => {
+        const rows = data.split('\n').slice(1);
+
+        const remsList = document.getElementById('rems-ul');
+
+        rows.forEach(row => {
+        const [name, time, text] = row.split(',');
+
+        const remItem = document.createElement('li');
+        remItem.innerHTML = `
+                <span class="remText">${name}</span>
+                <span class="rem-date">${time}</span><br>
+                <p class="remText">${text}</p>
+        `;
+
+        remsList.appendChild(remItem);
+
+        });
+    });
+
 const remSearchInput = document.getElementById('rem-search-input');
 
 remSearchInput.addEventListener('input', (event) => {

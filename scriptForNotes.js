@@ -1,5 +1,27 @@
+let login = ''
+
+fetch(`${login}_notes.csv`)
+    .then(response => response.text())
+    .then(data => {
+        const rows = data.split('\n').slice(1);
+
+        const notesList = document.getElementById('notes-ul');
+
+        rows.forEach(row => {
+        const [name, text] = row.split(',');
+
+        const noteItem = document.createElement('li');
+        noteItem.innerHTML = `
+                <span class="noteText">${name}</span>
+                <p class="noteText">${text}</p>
+        `;
+
+        notesList.appendChild(noteItem);
+
+        });
+    });
+
 const notesSearchInput = document.getElementById('notes-search-input');
-const remindersSearchInput = document.getElementById('reminders-search-input');
 
 notesSearchInput.addEventListener('input', (event) => {
     const searchText = event.target.value.toLowerCase();

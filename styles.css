@@ -17,8 +17,7 @@ header {
 .navbar ul {
     display: flex;
     list-style-type: none;
-    margin-left: 5px;
-    margin-right: px;
+    margin-left: -13px;
 }
 
 .navbar ul li a {
@@ -26,7 +25,7 @@ header {
     color: black;
     font-family: Arial;
     font-size: 20px;
-    padding: 4px;
+    padding: 30px;
 }
 
 .search {
@@ -141,3 +140,4 @@ header {
     color: aliceblue;
     cursor: pointer;
 }
+
